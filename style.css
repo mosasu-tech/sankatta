@@ -607,6 +607,35 @@ body {
     opacity: 0.3;
 }
 
+@media (max-width: 768px) {
+    .secbg-position-r {
+        position: absolute;
+        width: 70%;
+        top: auto;
+        bottom: 0%;
+        right: 12%;
+        height: auto;
+        opacity: 0.3;
+    }
+
+    .secbg-position-l {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 0%;
+        height: auto;
+        opacity: 0.3;
+    }
+    .secbg-position-ram {
+        position: absolute;
+        width: 80%;
+        bottom: 0%;
+        right: 9%;
+        height: auto;
+        opacity: 0.3;
+    }
+}
+
 .hidden {
     display: none;
 }
