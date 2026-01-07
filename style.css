@@ -583,11 +583,19 @@ body {
     }
 }
 
+.secbg-position-g {
+    position: absolute;
+    width: 40%;
+    top: 15%;
+    left: 0%;
+    height: auto;
+    opacity: 0.2;
+}
 
 .secbg-position-l {
     position: absolute;
-    width: 55%;
-    top: -7%;
+    width: 57%;
+    top: 0;
     left: 0%;
     height: auto;
     opacity: 0.3;
@@ -604,9 +612,9 @@ body {
 
 .secbg-position-ram {
     position: absolute;
-    width: 55%;
-    top: 10%;
-    right: 1%;
+    width: 58%;
+    top: 5%;
+    right: 0;
     height: auto;
     opacity: 0.3;
 }
