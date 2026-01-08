@@ -293,8 +293,8 @@ body {
     position: relative;
     /* background-color: #cc5a02; */
     /* background: #eb710f; */
-    background: linear-gradient(135deg,  rgba(254,116,31,1) 1%,rgba(253,165,41,1) 49%,rgba(254,116,31,1) 100%); 
-
+    /* background: linear-gradient(135deg,  rgba(254,116,31,1) 1%,rgba(253,165,41,1) 49%,rgba(254,116,31,1) 100%);  */
+    background: #ff9201;
 
 }
 
@@ -457,8 +457,8 @@ body {
     fill: transparent;
     stroke: #ffffff;
     stroke-width: 2;
-    stroke-dasharray: 900;
-    stroke-dashoffset: 900;
+    stroke-dasharray: 1400;
+    stroke-dashoffset: 1400;
 }
 
 /* Line drawing animation */
@@ -473,9 +473,13 @@ body {
 }
 
 @keyframes fillColor {
-    to {
+    /* to {
         fill: #ffd700;
         stroke: #ffd700;
+    } */
+    to {
+        fill: #ffffff;
+        stroke: #ffffff;
     }
 }
 
@@ -628,27 +632,27 @@ body {
 @media (max-width: 768px) {
     .secbg-position-r {
         position: absolute;
-        width: 70%;
+        width: 90%;
         top: auto;
         bottom: 0%;
-        right: 12%;
+        right: 5%;
         height: auto;
         opacity: 0.3;
     }
 
     .secbg-position-l {
         position: absolute;
-        width: 100%;
-        top: 50%;
-        left: 0%;
+        width: 90%;
+        top: 55%;
+        left: 5%;
         height: auto;
         opacity: 0.3;
     }
     .secbg-position-ram {
         position: absolute;
-        width: 80%;
-        bottom: 0%;
-        right: 9%;
+        width: 90%;
+        top: 65%;
+        right: 5%;
         height: auto;
         opacity: 0.3;
     }
