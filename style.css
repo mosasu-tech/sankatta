@@ -292,7 +292,10 @@ body {
     height: auto;
     position: relative;
     /* background-color: #cc5a02; */
-    background: #ed6c10;
+    /* background: #eb710f; */
+    background: linear-gradient(135deg,  rgba(254,116,31,1) 1%,rgba(253,165,41,1) 49%,rgba(254,116,31,1) 100%); 
+
+
 }
 
 .sticky-wrapper {
@@ -486,8 +489,8 @@ body {
     font-family: "Nanum Myeongjo", serif;
 }
 
-.hero-title {
-    background: linear-gradient(to right, #ffd700, #f7d77b);
+.hero-title {  
+    /* background: linear-gradient(to right,  #ffd000 0%,#ffee01 50%,#4d170e 100%); */
     /* background: linear-gradient(45deg, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); */
     -webkit-background-clip: text;
     background-clip: text;
@@ -495,16 +498,18 @@ body {
     line-height: 125% !important;
     font-weight: 700;
     font-size: 60px;
+    color: #4d170e;
 }
 
 .hero-title-h {
-    background: linear-gradient(to right, var(--secondary), var(--accent));
+    /* background: linear-gradient(to right, var(--secondary), var(--accent)); */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     line-height: 150% !important;
     font-weight: 500;
     font-size: 48px;
+    color: #4d170e;
 }
 @media (max-width: 768px) {
     .hero-title{font-size: 42px;}
@@ -604,11 +609,11 @@ body {
 
 .secbg-position-r {
     position: absolute;
-    width: 55%;
-    top: 0%;
+    width: 57%;
+    bottom: 0%;
     right: 0%;
     height: auto;
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 .secbg-position-ram {
