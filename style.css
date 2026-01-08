@@ -291,7 +291,8 @@ body {
 .scroll-container {
     height: auto;
     position: relative;
-    background-color: #cc5a02;
+    /* background-color: #cc5a02; */
+    background: #ed6c10;
 }
 
 .sticky-wrapper {
