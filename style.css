@@ -618,10 +618,10 @@ body {
 .secbg-position-l {
     position: absolute;
     width: 57%;
-    top: 0;
+    bottom: 0;
     left: 0%;
     height: auto;
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .secbg-position-r {
@@ -636,10 +636,10 @@ body {
 .secbg-position-ram {
     position: absolute;
     width: 58%;
-    top: 5%;
+    bottom: 0;
     right: 0;
     height: auto;
-    opacity: 0.3;
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
